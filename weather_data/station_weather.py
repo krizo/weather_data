@@ -42,10 +42,11 @@ class Station:
         url_prefix = "https://dane.imgw.pl/data/dane_pomiarowo_obserwacyjne/"
         sub_dir = "{}/{}/".format(year, month)
         filename = "dane_{}_{}_{}.csv.gz".format(year, month, self.id)
-        local_dir = "./input_data/imgw/data/{}/".format(year)
+        local_dir = "./input_data/imgw/data/station_{}_{}/".format(self.id, self.name)
+        local_filename = "{}_{}_{}.csv.gz".format(self.id, year, month)
         if not os.path.exists(local_dir):
             os.makedirs(local_dir)
         url = url_prefix + sub_dir + filename
         if save_data:
-            urlretrieve(url, local_dir + filename)
-        return url
+            urlretrieve(url, local_dir + local_filename)
+        return local_dir + local_filename
