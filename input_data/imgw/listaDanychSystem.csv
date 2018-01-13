@@ -1,0 +1,781 @@
+Symbol;Opis pola;Jednostka
+B400F00200;Ciśnienie minutowe-synop;hPa
+B403F00200;Trend minutowy ciśnienia-synop;hPa
+B404F00200;Liczba czujników ciśnienia-synop;
+B405F00200;Maksymalna odchyłka między czujnikami-synop;
+B100E00200;Temperatura powietrza chwilowa-synop;C
+B100E002AH;Temperatura powietrza minimalna za ostatnie 12 h-synop;C
+B100E002BH;Temperatura powietrza maksymalna za ostatnie 12 h-synop;C
+B110E00200;Temperatura gruntu chwilowa-synop;C
+B110E002AH;Temperatura gruntu minimalna za ostatnie 12 h-synop;C
+B110E002BH;Temperatura gruntu maksymalna za ostatnie 12 h-synop;C
+B500E00200;Wilgotność względna chwilowa-synop;%
+B201E002C2;Kierunek wiatru średni za ostatnie 2 min.-synop;st. kąta
+B201E002A2;Kierunek wiatru minimalny za ostatnie 2 min.-synop;st. kąta
+B201E002B2;Kierunek wiatru maksymalny za ostatnie 2 min.-synop;st. kąta
+B201E002C1;Kierunek wiatru średni za ostatnie 10 min.-synop;st. kąta
+B201E002A1;Kierunek wiatru minimalny za ostatnie 10 min.-synop;st. kąta
+B201E002B1;Kierunek wiatru maksymalny za ostatnie 10 min.-synop;st. kąta
+B200E002C2;Prędkość wiatru średnia za ostatnie 2 min.-synop;m/s
+B200E002A2;Prędkość wiatru minimalna za ostatnie 2 min.-synop;m/s
+B200E002B2;Prędkość wiatru maksymalna za ostatnie 2 min.-synop;m/s
+B200E002C1;Prędkość wiatru średnia za ostatnie 10 min.-synop;m/s
+B200E002A1;Prędkość wiatru minimalna za ostatnie 10 min.-synop;m/s
+B200E002B1;Prędkość wiatru maksymalna za ostatnie 10 min.-synop;m/s
+B400E00200;Ciśnienie atmosferyczne obserwowane-synop;hPa
+B600K00200;Suma opadu SEBA za 1 min-synop;mm
+B600K002FG;Suma opadu SEBA za 1h-synop;mm
+B600K002FS;Suma opadu SEBA za 6h-synop;mm
+B600K002FH;Suma opadu SEBA za 12h-synop;mm
+B600K002FD;Suma opadu SEBA za 24h-synop;mm
+B610E002C1;Średnia widzialność pozioma za 10 minut-synop;
+B610E002AG;Minimalna widzialność pozioma za ostatnia godzinę-synop;
+B612E00200;Kod pogody bieżącej-synop;
+B650E002FG;Suma opadu śniegu za ostatnią godzinę-synop;mm
+B600E002FG;Suma opadu za ostatnią godzinę-synop;mm
+B601E002FG;Czas trwania opadu za ostatnią godzinę-synop;minuta
+B601E002FD;Czas trwania opadu za ostatnie 24 h-synop;minuta
+B690E002FG;Czas trwania usłonecznienia za ostatnią godzinę-synop;minuta
+B691E00200;Czas trwania usłonecznienia od godz. 00 UTC-synop;J/cm2
+B690E002FD;Czas trwania usłonecznienia za ostatnią dobę-synop;minuta
+B308B00200;Status czujnika podstawy chmur-synop;
+B301B00200;Chmury grupa 1 - podstawa-synop;
+B302B00200;Chmury grupa 2 - podstawa-synop;
+B303B00200;Chmury grupa 3 - podstawa-synop;
+B611B00200;Widzialność pionowa-synop;
+B118E00200;Status czujnika temperatury gruntu-synop;
+B110B00200;Temperatura na 5 cm n.p.g.-synop;C
+B101B00200;Temperatura gruntu na 0 cm-synop;C
+B111E00200;Temperatura gruntu na głębokości 5 cm-synop;C
+B112E00200;Temperatura gruntu na głębokości 10 cm-synop;C
+B113E00200;Temperatura gruntu na głębokości 20 cm-synop;C
+B114E00200;Temperatura gruntu na głębokości 50 cm-synop;C
+B115E00200;Temperatura gruntu na głębokości 100 cm-synop;C
+B100B008BD;Maksymalna temperatura powietrza-doba-synop;C
+B100B008AD;Minimalna temperatura powietrza-doba-synop;C
+B100B008CD;Średnia temperatura powietrza-doba-synop;C
+B110B008AD;Minimalna temperatura przy powierzchni gruntu-doba-synop;C
+B600B008FD;Suma opadu - deszcz-doba-synop;mm
+B650B008FD;Suma opadu - śnieg-doba-synop;mm
+B690B00800;Suma usłonecznienia-doba-synop;godzina
+B661B00800;Czas trwania: Deszcz-doba-synop;godzina
+B662B00800;Czas trwania: Śnieg-doba-synop;godzina
+B663B00800;Czas trwania: Deszcz ze śniegiem-doba-synop;godzina
+B664B00800;Czas trwania: Grad-doba-synop;godzina
+B666B00800;Czas trwania: Mgły-doba-synop;godzina
+B673B00800;Czas trwania: Zamglenie-doba-synop;godzina
+B665B00800;Czas trwania: Szadź-doba-synop;godzina
+B675B00800;Czas trwania: Gołoledź-doba-synop;godzina
+B678B00800;Czas trwania: Zamieć niska-doba-synop;godzina
+B679B00800;Czas trwania: Zamieć wysoka-doba-synop;godzina
+B667B00800;Czas trwania: Zmętnienie-doba-synop;godzina
+B676B00800;Czas trwania: Prędkość wiatru > 10 m/s-doba-synop;godzina
+B677B00800;Czas trwania: Prędkość wiatru > 15 m/s-doba-synop;godzina
+B671B00800;Czas trwania: Burza-doba-synop;godzina
+B668B00800;Czas trwania: Rosa-doba-synop;godzina
+B669B00800;Czas trwania: Szron-doba-synop;godzina
+B651B00800;Dzień z pokrywą śnieżną-doba-synop;
+B620B00800;Dzień z błyskawicą-doba-synop;
+B652B00800;Grubość pokrywy śnieżnej o 06 UTC-doba-synop;cm
+B659B00800;Równoważnik wodny śniegu-doba-synop;mm/cm2
+B646B00800;Stan gruntu (Izotermy) [Z|R]-doba-synop;
+B116B00800;Izoterma dolna-doba-synop;
+B117B00800;Izoterma górna-doba-synop;
+B695B00800;Aktynometria-doba-synop;[J/cm2]
+B120J00000;Typ ewaporometru-ewaporometria;
+B121J00000;Temperatura wody na głębokości 1 cm z 00 UTC-ewaporometria;C
+B122J00000;Temperatura wody na głębokości 40 cm z 00 UTC-ewaporometria;C
+B123J00000;Prędkość wiatru z 00 UTC-ewaporometria;m/s
+B124J00000;Temperatura wody na głębokości 1 cm z 06 UTC-ewaporometria;C
+B125J00000;Temperatura wody na głębokości 40 cm z 06 UTC-ewaporometria;C
+B126J00000;Prędkość wiatru z 06 UTC-ewaporometria;m/s
+B127J00000;Temperatura wody na głębokości 1 cm z 12 UTC-ewaporometria;C
+B128J00000;Temperatura wody na głębokości 40 cm z 12 UTC-ewaporometria;C
+B129J00000;Prędkość wiatru z 12 UTC-ewaporometria;m/s
+B130J00000;Temperatura wody na głębokości 1 cm z 18 UTC-ewaporometria;C
+B131J00000;Temperatura wody na głębokości 40 cm z 18 UTC-ewaporometria;C
+B132J00000;Prędkość wiatru z 18 UTC-ewaporometria;m/s
+B133J00000;Grubość warstwy wyparowanej za 12 godzin 06 UTC-ewaporometria;mm
+B134J00000;Suma opadu za 12 godzin z 06 UTC-ewaporometria;mm
+B135J00000;Grubość warstwy wyparowanej za 12 godzin 18 UTC-ewaporometria;mm
+B136J000FH;Suma opadu za 12 godzin z 18 UTC-ewaporometria;mm
+B137J00000;Grubość warstwy wyparowanej za dobę-ewaporometria;mm
+B138J000FD;Suma opadu za dobę-ewaporometria;mm
+B100B004BH;Temperatura maksymalna powietrza za 12 godzin-synop-obserwator;C
+B100B004AH;Temperatura minimalna powietrza za 12 godzin-synop-obserwator;C
+B110B004AH;Temperatura minimalna przy powierzchni gruntu za 12 godzin-synop-obserwator;C
+B674B00400;Grubość śniegu na poletku-synop;cm
+B652B00400;Grubość pokrywy śnieżnej-synop;cm
+B656B00400;Wysokość świeżo spadłego śniegu-synop;cm
+B655B00400;Gatunek śniegu-synop;
+B654B00400;Ukształtowanie pokrywy śnieżnej-synop;
+B658B00400;Ciężar próbki-synop;
+B657B00400;Wysokość próbki-synop;
+B659B00400;Równoważnik wodny śniegu-synop;mm/cm2
+B609B00400;Opad za 6 godzin-synop;mm
+B602B00400;Rodzaj opadu [5-9|.];bez wymiarowe
+B601B00400;Czas trwania opadu-synop;minuta
+B111B00400;Temperatura gruntu na głębokości 5 cm-synop-obserwator;C
+B111A00400;Temperatura gruntu na głębokości 5 cm-synop-automat;C
+B112B00400;Temperatura gruntu na głębokości 10 cm-synop-obserwator;C
+B112A00400;Temperatura gruntu na głębokości 10 cm-synop-automat;C
+B113B00400;Temperatura gruntu na głębokości 20 cm-synop-obserwator;C
+B113A00400;Temperatura gruntu na głębokości 20 cm-synop-automat;C
+B114B00400;Temperatura gruntu na głębokości 50 cm-synop-obserwator;C
+B114A00400;Temperatura gruntu na głębokości 50 cm-synop-automat;C
+B115B00400;Temperatura gruntu na głębokości 100 cm-synop-obserwator;C
+B115A00400;Temperatura gruntu na głębokości 100 cm-synop-automat;C
+B646B00400;Stan gruntu-synop;
+B301B00400;Podstawa chmur niższa-synop;
+B302B00400;Podstawa chmur wyższa-synop;
+B300B00400;Podstawa chmur szyfrowana-synop;
+B305B00400;Pomiar przyrządem podstawy chmur 1-synop;
+B306B00400;Pomiar przyrządem podstawy chmur 2-synop;
+B304B00400;Podstawa chmur tekstem-synop;
+B308B00400;Status podstawy chmur [A|O])-synop;
+B610B00400;Widzialność pozioma-synop;
+B615B00400;Status widzialności poziomej [D|N]-synop;
+B614B00400;Widzialność szyfrowana [0-9]-synop;
+B610E00400;Widzialność z automatu-synop;
+B314B00400;Zachmurzenie całkowite-synop;
+B315B00400;Zachmurzenie przez chmury niskie-synop;
+B201B00400;Kierunek wiatru-synop-obserwator;st. kąta
+B201A00400;Kierunek wiatru-synop-automat;st. kąta
+B200B00400;Prędkość wiatru-synop-obserwator;m/s
+B200A00400;Prędkość wiatru-synop-automat;m/s
+B996B00400;Inf. dla depeszy SYNOP (0 - Kier., 1 - Brak)-synop;bez wymiarowe
+B214B00400;Poryw wiatru w czasie obserwacji-synop;m/s
+B210B00400;Poryw wiatru za okres WW-synop;m/s
+B211B00400;Godzina wystąpienia porywu wiatru FXFX-synop;
+B211B00400;Minuta wystąpienia porywu wiatru FXFX-synop;
+B100B00400;Temperatura powietrza-synop;C
+B503B00400;Temperatura termometru zwilżonego-synop;C
+B504B00400;Wskaźnik lodu [W|L| ]-synop;
+B505B00400;Rodzaj psychrometru [W|N|U]-synop;
+B501B00400;Prężność pary wodnej-synop;hPa
+B500B00400;Wilgotność względna-synop;%
+B502B00400;Niedosyt wilgotności-synop;hPa
+B506B00400;Temperatura punktu rosy-synop;C
+B408B00400;Wysokość aktualnego barometru-synop;
+B400B00400;Ciśnienie atmosferyczne na poziomie stacji-synop-obserwator;hPa
+B400A00400;Ciśnienie atmosferyczne na poziomie stacji-synop-automat;hPa
+B402B00400;Ciśnienie atmosferyczne na poziomie morza-synop;hPa
+B406B00400;Charakter tendencji ciśnienia-synop;
+B407B00400;Wielkość tendencji ciśnienia-synop;
+B613B00400;Kod pogody ubiegłej-synop;
+B612B00400;Kod pogody bieżącej-synop;
+B312B00400;Chmury niskie (KOD)-synop;
+pole opis do B312B00400;Chmury niskie (OPIS)-synop;
+B313B00400;Chmury średnie (KOD)-synop;
+pole opis do B313B00400;Chmury średnie (OPIS)-synop;
+B311B00400;Chmury wysokie (KOD)-synop;
+pole opis do B311B00400;Chmury wysokie (OPIS)-synop;
+B690B00400;Usłonecznienie godzinowe-synop;minuta
+B630B00400;Występowanie rosy [0|1]-synop;dni
+B216N00400;Wartość porywu wiatru-synop;m/s
+B200N004C1;Średnia prędkość wiatru z 10 min.-synop;m/s
+B100B016AK;Minimalna temperatura powietrza-dekada-synop;C
+B100B016BK;Maksymalna temperatura powietrza-dekada-synop;C
+B100B016CK;Średnia temperatura powietrza-dekada-synop;C
+B100B016DK;Średnia temperatura minimalna-dekada-synop;C
+B100B016EK;Średnia temperatura maksymalna-dekada-synop;C
+B110B016AK;Minimalna temperatura przy powierzchni gruntu-dekada-synop;C
+B600B016BK;Maksymalna dobowa suma opadu-dekada-synop;mm
+B600B016FK;Suma opadu-dekada-synop;mm
+B607B016BK;Dzień wystąpienia pierwszego max. opadu-dekada-synop;
+B608B016BK;Dzień wystąpienia drugiego max. opadu-dekada-synop;
+B621B016FK;Liczba dni burzowych-dekada-synop;dni
+B622B016FK;Liczba dni deszczowych-dekada-synop;dni
+B623B016FK;Liczba dni śnieżnych-dekada-synop;dni
+B624B016FK;Liczba dni śniegu z deszczem-dekada-synop;dni
+B625B016FK;Liczba dni z opadami gradu miesięczna-dekada-synop;dni
+B626B016FK;Liczba dni utrzymywania się gołoledzi-dekada-synop;dni
+B627B016FK;Liczba dni utrzymywania się sadzi-dekada-synop;dni
+B628B016FK;Liczba dni utrzymywania się mgły-dekada-synop;dni
+B629B016FK;Liczba dni trwania zmętnienia-dekada-synop;dni
+B630B016FK;Liczba dni wystepowania rosy miesięczna-dekada-synop;dni
+B631B016FK;Liczba dni wystepowania szronu miesięczna-dekada-synop;dni
+B632B016FK;Liczba dni trwania zamieci niskiej-dekada-synop;dni
+B633B016FK;Liczba dni trwania zamieci wysokiej-dekada-synop;dni
+B644B016FK;Liczba dni utrzymyw. się wiatru >10m/s-dekada-synop;dni
+B645B016FK;Liczba dni utrzymyw. się wiatru >15m/s-dekada-synop;dni
+B651B016FK;Liczba dni utrzymywania się pokrywy śnieżnej-dekada-synop;dni
+B652B016BK;Maksymalna grubość pokrywy śnieżnej-dekada-synop;cm
+B672B016FK;Liczba dni zamglonych-dekada-synop;dni
+B690B016FK;Usłonecznienie-dekada-synop;minuta
+B100B016AM;Minimalna temperatura powietrza-miesiąc-synop;C
+B100B016BM;Maksymalna temperatura powietrza-miesiąc-synop;C
+B100B016CM;Średnia temperatura powietrza-miesiąc-synop;C
+B100B016DM;Średnia temperatura minimalna-miesiąc-synop;C
+B100B016EM;Średnia temperatura maksymalna-miesiąc-synop;C
+B110B016AM;Minimalna temperatura przy powierzchni gruntu-miesiąc-synop;C
+B600B016BM;Maksymalna dobowa suma opadu-miesiąc-synop;mm
+B600B016FM;Suma opadu-miesiąc-synop;mm
+B607B016BM;Dzień wystąpienia pierwszego max. opadu-miesiąc-synop;
+B608B016BM;Dzień wystąpienia drugiego max. opadu-miesiąc-synop;
+B621B016FM;Liczba dni burzowych-miesiąc-synop;dni
+B622B016FM;Liczba dni deszczowych-miesiąc-synop;dni
+B623B016FM;Liczba dni śnieżnych-miesiąc-synop;dni
+B624B016FM;Liczba dni śniegu z deszczem-miesiąc-synop;dni
+B625B016FM;Liczba dni z opadami gradu-miesiąc-synop;dni
+B626B016FM;Liczba dni utrzymywania się gołoledzi-miesiąc-synop;dni
+B627B016FM;Liczba dni utrzymywania się sadzi-miesiąc-synop;dni
+B628B016FM;Liczba dni utrzymywania się mgły-miesiąc-synop;dni
+B629B016FM;Liczba dni trwania zmętnienia-miesiąc-synop;dni
+B630B016FM;Liczba dni wystepowania rosy-miesiąc-synop;dni
+B631B016FM;Liczba dni wystepowania szronu-miesiąc-synop;dni
+B632B016FM;Liczba dni trwania zamieci niskiej-miesiąc-synop;dni
+B633B016FM;Liczba dni trwania zamieci wysokiej-miesiąc-synop;dni
+B644B016FM;Liczba dni utrzymywania się wiatru >10m/s-miesiąc-synop;dni
+B645B016FM;Liczba dni utrzymywania się wiatru >15m/s-miesiąc-synop;dni
+B651B016FM;Liczba dni utrzymywania się pokrywy śnieżnej-miesiąc-synop;dni
+B652B016BM;Maksymalna grubość pokrywy śnieżnej-miesiąc-synop;cm
+B672B016FM;Liczba dni zamglonych-miesiąc-synop;dni
+B690B016FM;Usłonecznienie-miesiąc-synop;minuta
+B100B015AK;Minimalna temperatura powietrza-dekada-klimat;C
+B100B015AM;Minimalna temperatura powietrza-miesiąc-klimat;C
+B100B015BK;Maksymalna temperatura powietrza-dekada-klimat;C
+B100B015BM;Maksymalna temperatura powietrza-miesiąc-klimat;C
+B100B015CK;Średnia temperatura powietrza-dekada-klimat;C
+B100B015CM;Średnia temperatura powietrza-miesiąc-klimat;C
+B100B015DK;Średnia temperatura minimalna-dekada-klimat;C
+B100B015DM;Średnia temperatura minimalna-miesiąc-klimat;C
+B100B015EK;Średnia temperatura maksymalna-dekada-klimat;C
+B100B015EM;Średnia temperatura maksymalna-miesiąc-klimat;C
+B110B015AK;Minimalna temperatura przy powierzchni gruntu-dekada-klimat;C
+B110B015AM;Minimalna temperatura przy powierzchni gruntu-miesiąc-klimat;C
+B600B015BK;Maksymalna dobowa suma opadu-dekada-klimat;mm
+B600B015BM;Maksymalna dobowa suma opadu-miesiąc-klimat;mm
+B600B015FK;Suma opadu-dekada-klimat;mm
+B600B015FM;Suma opadu-miesiąc-klimat;mm
+B607B015BK;Dzień wystąpienia pierwszego max. opadu-dekada-klimat;
+B607B015BM;Dzień wystąpienia pierwszego max. opadu-miesiąc-klimat;
+B608B015BK;Dzień wystąpienia drugiego max. opadu-dekada-klimat;
+B608B015BM;Dzień wystąpienia drugiego max. opadu-miesiąc-klimat;
+B622B015FK;Liczba dni deszczowych-dekada-klimat;dni
+B622B015FM;Liczba dni deszczowych-miesiąc-klimat;dni
+B623B015FK;Liczba dni śnieżnych-dekada-klimat;dni
+B623B015FM;Liczba dni śnieżnych-miesiąc-klimat;dni
+B651B015FK;Liczba dni utrzymywania się pokrywy śnieżnej-dekada-klimat;dni
+B651B015FM;Liczba dni utrzymywania się pokrywy śnieżnej-miesiąc-klimat;dni
+B652B015BK;Maksymalna grubość pokrywy śnieżnej-dekada-klimat;cm
+B652B015BM;Maksymalna grubość pokrywy śnieżnej-miesiąc-klimat;cm
+B100B013CK;Średnia temperatura powietrza-dekada-synop;C
+B200B013CK;Średnia prędkość wiatru-dekada-synop;m/s
+B314B013CK;Średnie zachmurzenie-dekada-synop;
+B400B013CK;Średnie ciśnienie atmosferyczne na poziomie stacji-dekada-synop;hPa
+B402B013CK;Średnie ciśnienie atmosferyczne na poziomie morza-dekada-synop;hPa
+B500B013CK;Średnia wilgotność względna-dekada-synop;%
+B501B013CK;Średnie ciśnienie pary wodnej-dekada-synop;hPa
+B603B013FK;Suma opadu za 12 godzin - dzień-dekada-synop;mm
+B604B013FK;Suma opadu za 12 godzin - noc-dekada-synop;mm
+B100B012CK;Średnia temperatura powietrza-dekada-klimat;C
+B100B012CM;Średnia temperatura powietrza-miesiąc-klimat;C
+B200B012CK;Średnia prędkość wiatru-dekada-klimat;m/s
+B200B012CM;Średnia prędkość wiatru-miesiąc-klimat;m/s
+B314B012CK;Średnie zachmurzenie-dekada-klimat;
+B314B012CM;Średnie zachmurzenie-miesiąc-klimat;
+B500B012CK;Średnia wilgotność względna-dekada-klimat;%
+B500B012CM;Średnia wilgotność względna-miesiąc-klimat;%
+B501B012CK;Średnie ciśnienie pary wodnej-dekada-klimat;hPa
+B501B012CM;Średnie ciśnienie pary wodnej-miesiąc-klimat;hPa
+B100B012CD;Średnia temperatura powietrza-doba-klimat;C
+B200B012CD;Średnia prędkość wiatru-doba-klimat;m/s
+B314B012CD;Średnie zachmurzenie-doba-klimat;
+B500B012CD;Średnia wilgotność względna-doba-klimat;%
+B501B012CD;Średnie ciśnienie pary wodnej-doba-klimat;hPa
+B100B013CD;Średnia temperatura powietrza-doba-synop;C
+B200B013CD;Średnia prędkość wiatru-doba-synop;m/s
+B314B013CD;Średnie zachmurzenie-doba-synop;
+B400B013CD;Średnie ciśnienie atmosferyczne na poziomie stacji-doba-synop;hPa
+B402B013CD;Średnie ciśnienie atmosferyczne na poziomie morza-doba-synop;hPa
+B500B013CD;Średnia wilgotność względna-doba-synop;%
+B501B013CD;Średnie ciśnienie pary wodnej-doba-synop;hPa
+B603B013FD;Suma opadu za 12 godzin - dzień-doba-synop;mm
+B604B013FD;Suma opadu za 12 godzin - noc-doba-synop;mm
+B100B013CM;Średnia temperatura powietrza-miesiąc-synop;C
+B200B013CM;Średnia prędkość wiatru-miesiąc-synop;m/s
+B314B013CM;Średnie zachmurzenie-miesiąc-synop;
+B400B013CM;Średnie ciśnienie atmosferyczne na poziomie stacji-miesiąc-synop;hPa
+B402B013CM;Średnie ciśnienie atmosferyczne na poziomie morza-miesiąc-synop;hPa
+B500B013CM;Średnia wilgotność względna-miesiąc-synop;%
+B501B013CM;Ciśnienie pary wodnej-miesiąc-synop;hPa
+B603B013FM;Suma opadu za 12 godzin - dzień-miesiąc-synop;mm
+B604B013FM;Suma opadu za 12 godzin - noc-miesiąc-synop;mm
+B100D017AK;Minimalna temperatura powietrza-dekada-MAWS;C
+B100D017BK;Maksymalna temperatura powietrza-dekada-MAWS;C
+B100D017CK;Średnia temperatura powietrza-dekada-MAWS;C
+B100D017DK;Średnia temperatura minimalna-dekada-MAWS;C
+B100D017EK;Średnia temperatura maksymalna-dekada-MAWS;C
+B100E017AK;Minimalna temperatura powietrza-dekada-MILOS;C
+B100E017BK;Maksymalna temperatura powietrza-dekada-MILOS;C
+B100E017CK;Średnia temperatura powietrza-dekada-MILOS;C
+B100E017DK;Średnia temperatura minimalna-dekada-MILOS;C
+B100E017EK;Średnia temperatura maksymalna-dekada-MILOS;C
+B100N017AK;Minimalna temperatura powietrza-dekada-automat;C
+B100N017BK;Maksymalna temperatura powietrza-dekada-automat;C
+B100N017CK;Średnia temperatura powietrza-dekada-automat;C
+B100N017DK;Średnia temperatura minimalna-dekada-automat;C
+B100N017EK;Średnia temperatura maksymalna-dekada-automat;C
+B110D017AK;Minimalna temperatura przy powierzchni gruntu-dekada-MAWS;C
+B110E017AK;Minimalna temperatura przy powierzchni gruntu-dekada-MILOS;C
+B110N017AK;Minimalna temperatura przy powierzchni gruntu-dekada-automat;C
+B600D017BK;Maksymalna dobowa suma opadu-dekada-MAWS;mm
+B600D017FK;Suma opadu-dekada-MAWS;mm
+B600E017BK;Maksymalna dobowa suma opadu-dekada-MILOS;mm
+B600E017FK;Suma opadu-dekada-MILOS;mm
+B600N017BK;Maksymalna dobowa suma opadu-dekada-automat;mm
+B600N017FK;Suma opadu-dekada-automat;mm
+B622D017FK;Liczba dni deszczowych-dekada-MAWS;dni
+B622E017FK;Liczba dni deszczowych-dekada-MILOS;dni
+B622N017FK;Liczba dni deszczowych-dekada-automat;dni
+B644D017FK;Liczba dni utrzymyw. się wiatru >10m/s-dekada-MAWS;dni
+B644E017FK;Liczba dni utrzymyw. się wiatru >10m/s-dekada-MILOS;dni
+B644N017FK;Liczba dni utrzymyw. się wiatru >10m/s-dekada-automat;dni
+B645D017FK;Liczba dni utrzymyw. się wiatru >15m/s-dekada-MAWS;dni
+B645E017FK;Liczba dni utrzymyw. się wiatru >15m/s-dekada-MILOS;dni
+B645N017FK;Liczba dni utrzymyw. się wiatru >15m/s-dekada-automat;dni
+B100D017AM;Minimalna temperatura powietrza-miesiąc-MAWS;C
+B100D017BM;Maksymalna temperatura powietrza-miesiąc-MAWS;C
+B100D017CM;Średnia temperatura powietrza-miesiąc-MAWS;C
+B100D017DM;Średnia temperatura minimalna-miesiąc-MAWS;C
+B100D017EM;Średnia temperatura maksymalna-miesiąc-MAWS;C
+B100E017AM;Minimalna temperatura powietrza-miesiąc-MILOS;C
+B100E017BM;Maksymalna temperatura powietrza-miesiąc-MILOS;C
+B100E017CM;Średnia miesięczna temperatura-miesiąc-MILOS;C
+B100E017DM;Średnia temperatura minimalna-miesiąc-MILOS;C
+B100E017EM;Średnia temperatura maksymalna-miesiąc-MILOS;C
+B110D017AM;Minimalna temperatura przy powierzchni gruntu-miesiąc-MAWS;C
+B110E017AM;Minimalna temperatura przy powierzchni gruntu-miesiąc-MILOS;C
+B600D017BM;Maksymalna dobowa suma opadu-miesiąc-MAWS;mm
+B600D017FM;Suma opadu-miesiąc-MAWS;mm
+B600E017BM;Maksymalna dobowa suma opadu-miesiąc-MILOS;mm
+B600E017FM;Suma opadu-miesiąc-MILOS;mm
+B622D017FM;Liczba dni deszczowych-miesiąc-MAWS;dni
+B622E017FM;Liczba dni deszczowych-miesiąc-MILOS;dni
+B644D017FM;Liczba dni utrzymyw. się wiatru >10m/s-miesiąc-MAWS;dni
+B644E017FM;Liczba dni utrzymyw. się wiatru >10m/s-miesiąc-MILOS;dni
+B645D017FM;Liczba dni utrzymyw. się wiatru >15m/s-miesiąc-MAWS;dni
+B645E017FM;Liczba dni utrzymyw. się wiatru >15m/s-miesiąc-MILOS;dni
+B100D010CK;Średnia temperatura powietrza-dekada-MAWS;C
+B100E010CK;Średnia temperatura powietrza-dekada-MILOS;C
+B200D010CK;Średnia prędkość wiatru-dekada-MAWS;m/s
+B200E010CK;Średnia prędkość wiatru-dekada-MILOS;m/s
+B400D010CK;Średnie ciśnienie atmosferyczne na poziomie stacji-dekada-MAWS;hPa
+B400E010CK;Średnie ciśnienie atmosferyczne na poziomie stacji-dekada-MILOS;hPa
+B402D010CK;Średnie ciśnienie atmosferyczne na poziomie morza-dekada-MAWS;hPa
+B402E010CK;Średnie ciśnienie atmosferyczne na poziomie morza-dekada-MILOS;hPa
+B500D010CK;Średnia wilgotność względna-dekada-MAWS;%
+B500E010CK;Średnia wilgotność względna-dekada-MILOS;%
+B501D010CK;Ciśnienie pary wodnej-dekada-MAWS;hPa
+B501E010CK;Ciśnienie pary wodnej-dekada-MILOS;hPa
+B603D010FK;Suma opadu za 12 godzin - dzień-dekada-MAWS;mm
+B603E010FK;Suma opadu za 12 godzin - dzień-dekada-MILOS;mm
+B604D010FK;Suma opadu za 12 godzin - noc-dekada-MAWS;mm
+B604E010FK;Suma opadu za 12 godzin - noc-dekada-MILOS;mm
+B100D010CD;Średnia temperatura powietrza-doba-MAWS;C
+B100E010CD;Średnia temperatura powietrza-doba-MILOS;C
+B200D010CD;Średnia prędkość wiatru-doba-MAWS;m/s
+B200E010CD;Średnia prędkość wiatru-doba-MILOS;m/s
+B400D010CD;Średnie ciśnienie atmosferyczne na poziomie stacji-doba-MAWS;hPa
+B400E010CD;Średnie ciśnienie atmosferyczne na poziomie stacji-doba-MILOS;hPa
+B402D010CD;Średnie ciśnienie atmosferyczne na poziomie morza-doba-MAWS;hPa
+B402E010CD;Średnie ciśnienie atmosferyczne na poziomie morza-doba-MILOS;hPa
+B500D010CD;Średnia wilgotność względna-doba-MAWS;%
+B500E010CD;Średnia wilgotność względna-doba-MILOS;%
+B501D010CD;Ciśnienie pary wodnej-doba-MAWS;hPa
+B501E010CD;Ciśnienie pary wodnej-doba-MILOS;hPa
+B603D010FD;Suma opadu za 12 godzin - dzień-doba-MAWS;mm
+B603E010FD;Suma opadu za 12 godzin - dzień-doba-MILOS;mm
+B604D010FD;Suma opadu za 12 godzin - noc-doba-MAWS;mm
+B604E010FD;Suma opadu za 12 godzin - noc-doba-MILOS;mm
+B100D010CM;Średnia temperatura powietrza-miesiąc-MAWS;C
+B100E010CM;Średnia temperatura powietrza-miesiąc-MILOS;C
+B200D010CM;Średnia prędkość wiatru-miesiąc-MAWS;m/s
+B200E010CM;Średnia prędkość wiatru-miesiąc-MILOS;m/s
+B400D010CM;Średnie ciśnienie atmosferyczne na poziomie stacji-miesiąc-MAWS;hPa
+B400E010CM;Średnie ciśnienie atmosferyczne na poziomie stacji-miesiąc-MILOS;hPa
+B402D010CM;Średnie ciśnienie atmosferyczne na poziomie morza-miesiąc-MAWS;hPa
+B402E010CM;Średnie ciśnienie atmosferyczne na poziomie morza-miesiąc-MILOS;hPa
+B500D010CM;Średnia wilgotność względna-miesiąc-MAWS;%
+B500E010CM;Średnia wilgotność względna-miesiąc-MILOS;%
+B501D010CM;Ciśnienie pary wodnej-miesiąc-MAWS;hPa
+B501E010CM;Ciśnienie pary wodnej-miesiąc-MILOS;hPa
+B603D010FM;Suma opadu za 12 godzin - dzień-miesiąc-MAWS;mm
+B603E010FM;Suma opadu za 12 godzin - dzień-miesiąc-MILOS;mm
+B604D010FM;Suma opadu za 12 godzin - noc-miesiąc-MAWS;mm
+B604E010FM;Suma opadu za 12 godzin - noc-miesiąc-MILOS;mm
+B652B016BR;Maksymalna grubość pokrywy śnieżnej-rok-synop;cm
+B690B016FR;Usłonecznienie-rok-synop;minuta
+B672B016FR;Liczba dni zamglonych-rok-synop;dni
+B629B016FR;Liczba dni trwania zmętnienia-rok-synop;dni
+B631B016FR;Liczba dni wystepowania szronu-rok-synop;dni
+B632B016FR;Liczba dni trwania zamieci niskiej-rok-synop;dni
+B633B016FR;Liczba dni trwania zamieci wysokiej-rok-synop;dni
+B644B016FR;Liczba dni utrzymyw. się wiatru >10m/s-rok-synop;dni
+B645B016FR;Liczba dni utrzymyw. się wiatru >15m/s-rok-synop;dni
+B600B016FR;Suma opadu-rok-synop;mm
+B110B016AR;Minimalna temperatura przy powierzchni gruntu-rok-synop;C
+B100B016DR;Średnia temperatura minimalna-rok-synop;C
+B100B016ER;Średnia temperatura maksymalna-rok-synop;C
+B623B016FR;Liczba dni śnieżnych-rok-synop;dni
+B651B016FR;Liczba dni utrzymywania się pokrywy śnieżnej-rok-synop;dni
+B622B016FR;Liczba dni deszczowych-rok-synop;dni
+B600B016BR;Maksymalna dobowa suma opadu-rok-synop;mm
+B627B016FR;Liczba dni utrzymywania się sadzi-rok-synop;dni
+B630B016FR;Liczba dni wystepowania rosy-rok-synop;dni
+B100B016AR;Temperatura minimalna miesięczna-rok-synop;C
+B100B016BR;Temperatura maksymalna miesięczna-rok-synop;C
+B100B016CR;Średnia temperatura-rok-synop;C
+B621B016FR;Liczba dni burzowych-rok-synop;dni
+B607B016BR;Dzień wystąpienia pierwszego max. opadu-rok-synop;
+B608B016BR;Dzień wystąpienia drugiego max. opadu-rok-synop;
+B624B016FR;Liczba dni śniegu z deszczem-rok-synop;dni
+B625B016FR;Liczba dni z opadami gradu-rok-synop;dni
+B626B016FR;Liczba dni utrzymywania się gołoledzi-rok-synop;dni
+B628B016FR;Liczba dni utrzymywania się mgły-rok-synop;dni
+B608B015BR;Dzień wystąpienia drugiego max. opadu-rok-klimat;
+B652B015BR;Maksymalna grubość pokrywy śnieżnej-rok-klimat;cm
+B600B015FR;Suma opadu-rok-klimat;mm
+B110B015AR;Minimalna temperatura przy powierzchni gruntu-rok-klimat;C
+B100B015DR;Średnia temperatura minimalna-rok-klimat;C
+B100B015ER;Średnia temperatura maksymalna-rok-klimat;C
+B623B015FR;Liczba dni śnieżnych-rok-klimat;dni
+B651B015FR;Liczba dni utrzymywania się pokrywy śnieżnej-rok-klimat;dni
+B622B015FR;Liczba dni deszczowych-rok-klimat;dni
+B600B015BR;Maksymalna dobowa suma opadu-rok-klimat;mm
+B100B015AR;Temperatura minimalna-rok-klimat;C
+B100B015BR;Temperatura maksymalna-rok-klimat;C
+B100B015CR;Średnia temperatura-rok-klimat;C
+B607B015BR;Dzień wystąpienia pierwszego max. opadu-rok-klimat;
+B200B012CR;Średnia prędkość wiatru-rok-klimat;m/s
+B501B012CR;Średnie ciśnienie pary wodnej-rok-klimat;hPa
+B500B012CR;Średnia wilgotność względna-rok-klimat;%
+B100B012CR;Średnia temperatura powietrza-rok-klimat;C
+B314B012CR;Średnie zachmurzenie-rok-klimat;
+B402B013CR;Ciśnienie na poziomie morza-rok-synop;hPa
+B400B013CR;Ciśnienie na poziomie stacji-rok-synop;hPa
+B603B013FR;Suma opadu za 12 godzin - dzień-rok-synop;mm
+B604B013FR;Suma opadu za 12 godzin - noc-rok-synop;mm
+B100B013CR;Średnia temperatura powietrza-rok-synop;C
+B200B013CR;Średnia prędkość wiatru-rok-synop;m/s
+B500B013CR;Średnia wilgotność względna-rok-synop;%
+B501B013CR;Średnie ciśnienie pary wodnej-rok-synop;hPa
+B644D017FR;Liczba dni utrzymyw. się wiatru >10m/s-rok-MAWS;dni
+B645D017FR;Liczba dni utrzymyw. się wiatru >15m/s-rok-MAWS;dni
+B600D017FR;Suma opadu-rok-MAWS;mm
+B110D017AR;Minimalna temperatura przy powierzchni gruntu-rok-MAWS;C
+B100D017DR;Średnia temperatura minimalna-rok-MAWS;C
+B100D017ER;Średnia temperatura maksymalna-rok-MAWS;C
+B622D017FR;Liczba dni deszczowych-rok-MAWS;dni
+B600D017BR;Maksymalna dobowa suma opadu-rok-MAWS;mm
+B100D017AR;Temperatura minimalna-rok-MAWS;C
+B100D017BR;Temperatura maksymalna-rok-MAWS;C
+B100D017CR;Średnia temperatura-rok-MAWS;C
+B644E017FR;Liczba dni utrzymyw. się wiatru >10m/s-rok-MILOS;dni
+B645E017FR;Liczba dni utrzymyw. się wiatru >15m/s-rok-MILOS;dni
+B600E017FR;Suma opadu-rok-MILOS;mm
+B110E017AR;Minimalna temperatura przy powierzchni gruntu-rok-MILOS;C
+B100E017DR;Średnia temperatura minimalna-rok-MILOS;C
+B100E017ER;Średnia temperatura maksymalna-rok-MILOS;C
+B622E017FR;Liczba dni deszczowych-rok-MILOS;dni
+B600E017BR;Maksymalna dobowa suma opadu-rok-MILOS;mm
+B100E017AR;Temperatura minimalna-rok-MILOS;C
+B100E017BR;Temperatura maksymalna-rok-MILOS;C
+B100E017CR;Średnia temperatura-rok-MILOS;C
+B603D010FR;Suma opadu za 12 godzin - dzień-rok-MAWS;mm
+B604D010FR;Suma opadu za 12 godzin - noc-rok-MAWS;mm
+B100D010CR;Temperatura powietrza-rok-MAWS;C
+B200D010CR;Średnia prędkość wiatru-rok-MAWS;m/s
+B500D010CR;Wilgotność średnia-rok-MAWS;%
+B501D010CR;Ciśnienie pary wodnej-rok-MAWS;hPa
+B200E010CR;Średnia prędkość wiatru-rok-MILOS;m/s
+B100B007AD;Minimalna temperatura powietrza-doba-klimat;C
+B100B007BD;Maksymalna temperatura powietrza-doba-klimat;C
+B100B007CD;Średnia temperatura powietrza-doba-klimat;C
+B110B007AD;Minimalna temperatura przy powierzchni gruntu-doba-klimat;C
+B600B007FD;Suma opadu - woda-doba-klimat;mm
+B650B007FD;Suma opadu - śnieg-doba-klimat;mm
+B652B00700;Grubość pokrywy śnieżnej-doba-klimat;cm
+B400B007CD;Ciśnienie obserwowane +900hP - średnia dobowa-doba-klimat;hPa
+B500B007CD;Wilgotność względna-doba-klimat;%
+B653B00700;Rodzaj pokrywy śnieżnej-doba-klimat;
+B655B00700;Gatunek śniegu-doba-klimat;
+B656B00700;Wysokość świeżo spadłego śniegu-doba-klimat;cm
+B657B00700;Wysokość próbki-doba-klimat;
+B658B00700;Ciężar próbki-doba-klimat;
+B659B00700;Równoważnik wodny śniegu-doba-klimat;mm/cm2
+B690B007FD;Usłonecznienie-doba-klimat;minuta
+B100B00300;Temperatura powietrza-termin-klimat;C
+B200B00300;Prędkość wiatru-termin-klimat;m/s
+B212B00300;Kod kierunku wiatru-termin-klimat;
+B314B00300;Zachmurzenie ogólne-termin-klimat;
+B500B00300;Wilgotność względna-termin-klimat;%
+B503B00300;Temperatura termometru zwilżonego-termin-klimat;C
+B504B00300;Wskaźnik lodu dla termometru zwilżonego-termin-klimat;
+B505B00300;Wskaźnik wentylacji termometru zwilżonego-termin-klimat;
+B610B00300;Widzialność pozioma-termin-klimat;
+B400B00300;Ciśnienie obserwowane (na poziomie stacji) + 900hP-termin-klimat;hPa
+B501B00300;Ciśnienie pary wodnej-termin-klimat;hPa
+B502B00300;Niedosyt wilgotności-termin-klimat;hPa
+B506B00300;Temperatura punktu rosy-termin-klimat;C
+B646B00300;Stan gruntu-termin-klimat;
+B100D00500;Temperatura powietrza chwilowa-termin-MAWS;C
+B100D005AG;Temperatura powietrza minimalna za ostatnią godzinę-termin-MAWS;C
+B100D005BG;Temperatura powietrza max za ostatnią godzinę-termin-MAWS;C
+B100E00500;Temperatura powietrza chwilowa-termin-MILOS;C
+B100E005AG;Temperatura powietrza minimalna za ostatnią godzinę-termin-MILOS;C
+B100E005BG;Temperatura powietrza max za ostatnią godzinę-termin-MILOS;C
+B110D00500;Temperatura chwilowa przy powierzchni gruntu-termin-MAWS;C
+B110D005AG;Minimalna temperatura przy powierzchni gruntu za ostatnią godzinę-termin-MAWS;C
+B110D005BG;Maksymalna temperatura przy powierzchni gruntu za ostatnią godzinę-termin-MAWS;C
+B110E00500;Temperatura chwilowa przy powierzchni gruntu-termin-MILOS;C
+B110E005AG;Minimalna temperatura przy powierzchni gruntu za ostatnią godzinę-termin-MILOS;C
+B110E005BG;Maksymalna temperatura przy powierzchni gruntu za ostatnią godzinę-termin-MILOS;C
+B200D00500;Prędkość wiatru-termin-MAWS;m/s
+B200D005BG;Wiatr prędkość maksymalna wiatru terminowe-termin-MAWS;m/s
+B200E00500;Prędkość wiatru-termin-MILOS;m/s
+B200E005BG;Wiatr prędkość maksymalna wiatru terminowe-termin-MILOS;m/s
+B201D00500;Kierunek wiatru-termin-MAWS;st. kąta
+B201E00500;Kierunek wiatru-termin-MILOS;st. kąta
+B400E00500;Ciśnienie atmosferyczne chwilowe-termin-MILOS;hPa
+B400E005AG;Minimalne ciśnienie atmosferyczne-termin-MILOS;hPa
+B400E005BG;Maksymalne ciśnienie atmosferyczne-termin-MILOS;hPa
+B500D00500;Wilgotność względna chwilowa-termin-MAWS;%
+B500D005AG;Wilgotność względna minimalna za ostatnią godzinę-termin-MAWS;%
+B500D005BG;Wilgotność względna max za ostatnią godzinę-termin-MAWS;%
+B500E00500;Wilgotność względna chwilowa-termin-MILOS;%
+B500E005AG;Wilgotność względna minimalna za ostatnią godzinę-termin-MILOS;%
+B500E005BG;Wilgotność względna max za ostatnią godzinę-termin-MILOS;%
+B600D005FG;Suma opadu godzinowa-termin-MAWS;mm
+B600E005FG;Suma opadu godzinowa-termin-MILOS;mm
+B601E005FG;Czas trwania opadu-termin-MILOS;minuta
+B100D009AD;Minimalna temperatura powietrza-doba-MAWS;C
+B100D009BD;Maksymalna temperatura powietrza-doba-MAWS;C
+B100D009CD;Średnia dobowa temperatura powietrza-doba-MAWS;C
+B100E009AD;Minimalna temperatura powietrza-doba-MILOS;C
+B100E009BD;Maksymalna temperatura powietrza-doba-MILOS;C
+B100E009CD;Średnia dobowa temperatura powietrza-doba-MILOS;C
+B110D009AD;Minimalna temperatura przy powierzchni gruntu-doba-MAWS;C
+B110D009BD;Maksymalna temperatura przy powierzchni gruntu-doba-MAWS;C
+B110E009AD;Minimalna temperatura przy powierzchni gruntu-doba-MILOS;C
+B110E009BD;Maksymalna temperatura przy powierzchni gruntu-doba-MILOS;C
+B400E009AD;Ciśnienie minimalne-doba-MILOS;hPa
+B400E009BD;Ciśnienie maksymalne-doba-MILOS;hPa
+B500D009AD;Wilgotność względna minimalna-doba-MAWS;%
+B500D009BD;Wilgotność względna maksymalna-doba-MAWS;%
+B500E009AD;Wilgotność względna minimalna-doba-MILOS;%
+B500E009BD;Wilgotność względna maksymalna-doba-MILOS;%
+B600D009FD;Suma opadu za 24 godz.-doba-MAWS;mm
+B600E009FD;Suma opadu za 24 godz.-doba-MILOS;mm
+B601E009FD;Czas trwania opadu deszczu-doba-MILOS;minuta
+B600B018BM;Maksymalna dobowa suma opadu-miesiąc-opad;mm
+B600B018BR;Maksymalna dobowa suma opadu-rok-opad;mm
+B600S018BM;Maksymalna dobowa suma opadu-miesiąc-SEBA;mm
+B600S018BR;Maksymalna dobowa suma opadu-rok-SEBA;mm
+B600B018FM;Suma opadu-miesiąc-opad;mm
+B600B018FR;Suma opadu-rok-opad;mm
+B600S018FM;Suma opadu-miesiąc-SEBA;mm
+B600S018FR;Suma opadu-rok-SEBA;mm
+B607B018BM;Data wystąpienia pierwszego maksimum opadu-miesiąc-opad;
+B607B018BR;Data wystąpienia pierwszego maksimum opadu-rok-opad;
+B607S018BM;Data wystąpienia pierwszego maksimum opadu-miesiąc-SEBA;
+B607S018BR;Data wystąpienia pierwszego maksimum opadu-rok-SEBA;
+B608B018BM;Data wystąpienia ostatniego maksimum opadu-miesiąc-opad;
+B608B018BR;Data wystąpienia ostatniego maksimum opadu-rok-opad;
+B608S018BM;Data wystąpienia ostatniego maksimum opadu-miesiąc-SEBA;
+B608S018BR;Data wystąpienia ostatniego maksimum opadu-rok-SEBA;
+B623B018FM;Liczba dni z opadem śniegu-miesiąc;dni
+B623B018FR;Liczba dni z opadem śniegu-rok;dni
+B600B018FD;Suma dobowa opadu - woda;mm
+B650B018FD;Suma dobowa opadu - śnieg;mm
+B600S018FD;Suma opadu SEBA;mm
+B652B018CD;Grubość pokrywy śnieżnej;cm
+B653B018CD;Rodzaj pokrywy śnieżnej;
+B656B018FD;Wysokość świeżo spadłego śniegu;cm
+B621B01800;Burza wystąpienie;dni
+B623B01800;Śnieżenie wystąpienie;dni
+B625B01800;Grad wystąpienie;dni
+B634B01800;Krupy śnieżne wystąpienie;
+B635B01800;Śnieg ziarnisty wystąpienie;
+B636B01800;Burza odległa wystąpienie;
+B637B01800;Krupy lodowe;
+B638B01800;Ziarna lodowe;
+B655B018CD;Gatunek śniegu;
+B600S018FG;Suma godzinowa opadu;mm
+B605S00600;Opad 0.1 mm;mm
+B606S00600;Nr rejestratora;
+B010A05100;Terminowy stan wody. Źródło danych - czujnik.;cm
+B010A25100;Terminowy stan wody. Źródło danych - czujnik nr 2.;cm
+B010A35100;Terminowy stan wody. Źródło danych - czujnik nr 3.;cm
+B010B05100;Terminowy stan wody. Źródło danych - obserwator albo ekipa serwisowa.;cm
+B010L05100;Terminowy stan wody. Źródło danych - limnigraf.;cm
+B010N05100;Terminowy stan wody. Źródło danych - nieokreślone.;cm
+B010R05100;Terminowy stan wody. Źródło danych - ekipa serwisowa.;cm
+B010T05100;Terminowy stan wody. Źródło danych - ekipa wykonująca pomiar hydrometryczny.;cm
+B010W05100;Terminowy stan wody. Źródło danych - wyznaczenie lub obliczenie.;cm
+B010B050CD;Dobowy stan wody;cm
+B020B050CD;Dobowe natężenie przepływu;m3/s
+B050B050CD;Dobowa temperatura wody;C
+B014B050CD;Dobowe zmącenie;g/m3
+B010B053AM;Minimalny miesięczny stan wody;cm
+B010B053CM;Średni miesięczny stan wody;cm
+B010B053BM;Maksymalny miesięczny stan wody;cm
+B020B053AM;Minimalne miesięczne natężenie przepływu;m3/s
+B020B053CM;Średnie miesięczne natężenie przepływu;m3/s
+B020B053BM;Maksymalne miesięczne natężenie przepływu;m3/s
+B050B053AM;Minimalna miesięczna temperatura wody;C
+B050B053CM;Średnia miesięczna temperatura wody;C
+B050B053BM;Maksymalna miesięczna temperatura wody;C
+B014B053AM;Minimalne miesięczne zmącenie;g/m3
+B014B053CM;Średnie miesięczne zmącenie;g/m3
+B014B053BM;Maksymalne miesięczne zmącenie;g/m3
+B016B053AM;Minimalny miesięczny transport rumowiska;t
+B016B053CM;Średni miesięczny transport rumowiska;t
+B016B053BM;Maksymalny miesięczny transport rumowiska;t
+B035B05200;Kod zjawiska lodowego;0
+B043B05200;Kod procentowego udziału zjawisk lodowych;0
+B039B05200;Grubość lodu;cm
+B042B05200;Kod zarastania;0
+B000B05400;Błąd pomiaru;0
+B001B05400;Kod koryta rzeki;0
+B003B05400;Kod rodzaju sieci pomiarowej;0
+B005B05400;Rok hydrologiczny;0
+B010B05400;Stan wody podczas pomiaru hydrometrycznego;cm
+B012B05400;Odległość od wodowskazu;m
+B013B05400;Kod odległości od wodowskazu;0
+B015B05400;Unoszenie;kg/s
+B014B054BD;Zmącenie maksymalne;g/m3
+B014B054CD;Zmącenie średnie;g/m3
+B019B05400;Próba kontrolna;0
+B020B05400;Natężenie przepływu;m3/s
+B026B05400;Powierzchnia przekroju;m2
+B027B05400;Szerokość zwierciadła wody;m
+B028B05400;Głębokość średnia;m
+B029B05400;Głębokość maksymalna;m
+B030B05400;Prędkość średnia;m/s
+B031B05400;Prędkość maksymalna;m/s
+B032B05400;Spadek zwierciadła wody;promil
+B034B05400;Szerokość przekroju pomiarowego;m
+B035B05400;Kod zjawiska lodowego na rzece;0
+B038B05400;Kod zjawiska lodowego w profilu pomiarowym;0
+B039B05400;Średnia grubość lodu przy pomiarze przepływu;cm
+B040B05400;Szerokość pokrywy lodowej;m
+B042B05400;Kod zarastania przy pomiarach przepływu;0
+B044B05400;Powierzchnia przekroju lodu;m2
+B045B05400;Powierzchnia całkowita wraz z przekrojem nieczynnym;m2
+B822B05400;Głębokość średnia całkowitego przekroju;
+B990B05400;Uwaga do pomiarów hydrometrycznych nr 1;
+B990B15400;Uwaga do pomiarów hydrometrycznych nr 2;
+B990B25400;Uwaga do pomiarów hydrometrycznych nr 3;
+B990B35400;Uwaga do pomiarów hydrometrycznych nr 4;
+B990B45400;Uwaga do pomiarów hydrometrycznych nr 5;
+M000B06000;Telemetria-dane hydrologiczne. Błąd pomiaru.;0
+M001B06000;Telemetria-dane hydrologiczne. Kod koryta rzeki.;0
+M010B06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - obserwator albo ekipa serwisowa.;cm
+M010B16000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - ekipa serwisowa.;cm
+M010C06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik.;cm
+M010C16000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik nr 2.;cm
+M010C26000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik nr 3.;cm
+M010L06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - limnigraf.;cm
+M010W06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - wyznaczenie lub obliczenie.;cm
+M011B06000;Telemetria-dane hydrologiczne. Rzędna stanu wody.;m n.p.m.
+M012B06000;Telemetria-dane hydrologiczne. Odległość od wodowskazu.;m
+M013B06000;Telemetria-dane hydrologiczne. Kod odległości od wodowskazu.;0
+M018B06000;Telemetria-dane hydrologiczne. Stan wody podczas pomiaru hydrometrycznego.;cm
+M020B06000;Telemetria-dane hydrologiczne. Chwilowe natężenie przepływu.;m3/s
+M020B060CG;Telemetria-dane hydrologiczne. Godzinowe natężenie przepływu.;m3/s
+M021B06000;Telemetria-dane hydrologiczne. Przepływ zredukowany.;m3/s
+M022B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu.;
+M023B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu letni.;
+M024B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu zimowy.;
+M025B06000;Telemetria-dane hydrologiczne. Przepływ skorygowany.;m3/s
+M027B06000;Telemetria-dane hydrologiczne. Szerokość zwierciadła wody.;m
+M028B06000;Telemetria-dane hydrologiczne. Głębokość średnia.;m
+M029B06000;Telemetria-dane hydrologiczne. Głębokość maksymalna.;m
+M030B06000;Telemetria-dane hydrologiczne. Prędkość średnia.;m/s
+M031B06000;Telemetria-dane hydrologiczne. Prędkość maksymalna.;m/s
+M032B06000;Telemetria-dane hydrologiczne. Spadek zwierciadła wody.;promil
+M033B06000;Telemetria-dane hydrologiczne. Krzywa natężenia przepływu.;m3/s
+M035B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego.;0
+M036B06000;Telemetria-dane hydrologiczne. Kod procentowego udziału zjawisk lodowych.;%
+M037B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego na rzece.;0
+M038B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego w profilu pomiarowym.;0
+M042B06000;Telemetria-dane hydrologiczne. Kod zarastania przy pomiarach przepływu.;0
+M047B06000;Telemetria-dane hydrologiczne. Średnia grubość lodu przy pomiarze przepływu.;cm
+M050A06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - dowolny automat.;C
+M050B06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - obserwator albo ekipa serwisowa.;C
+M050B060CD;Telemetria-dane hydrologiczne. Średnia dobowa temperatura wody. Źródło danych - obserwator albo ekipa serwisowa.;C
+M050C06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - czujnik.;C
+M050C060CD;Telemetria-dane hydrologiczne. Średnia dobowa temperatura wody. Źródło danych - czujnik.;C
+M060B06000;Telemetria-dane hydrologiczne. Odpływ chwilowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+M060B060CD;Telemetria-dane hydrologiczne. Odpływ średni dobowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+M061B06000;Telemetria-dane hydrologiczne. Dopływ chwilowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+M061B060CD;Telemetria-dane hydrologiczne. Dopływ średni dobowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+M062B06000;Telemetria-dane hydrologiczne. Chwilowa rzędna górna zwierciadła wody.;m n.p.m
+M063B06000;Telemetria-dane hydrologiczne. Chwilowa rzędna dolna zwierciadła wody.;m n.p.m.
+M064B06000;Telemetria-dane hydrologiczne. Chwilowa objętość napełnienia zbiornika.;Milion metrów sześciennych
+M065B06000;Telemetria-dane hydrologiczne. Pojemność martwa zbiornika.;Milion metrów sześciennych
+M066B06000;Telemetria-dane hydrologiczne. Chwilowa pojemność całkowita zbiornika.;Milion metrów sześciennych
+M708C06000;Telemetria-dane hydrologiczne. Chwilowy stan wody w jeziorze. Źródło danych - czujnik.;cm
+M821B06000;Telemetria-dane hydrologiczne. Chwilowe natężenie przepływu przy pomiarze hydrometrycznym.;m3/s
+M990B06000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 1.;
+M990B16000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 2.;
+M990B26000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 3.;
+M990B36000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 4.;
+M990B46000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 5.;
+B000B06000;Telemetria-dane hydrologiczne. Błąd pomiaru.;0
+B001B06000;Telemetria-dane hydrologiczne. Kod koryta rzeki.;0
+B010B06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - obserwator albo ekipa serwisowa.;cm
+B010B16000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - ekipa serwisowa.;cm
+B010C06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik.;cm
+B010C16000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik nr 2.;cm
+B010C26000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - czujnik nr 3.;cm
+B010L06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - limnigraf.;cm
+B010W06000;Telemetria-dane hydrologiczne. Terminowy stan wody. Źródło danych - wyznaczenie lub obliczenie.;cm
+B011B06000;Telemetria-dane hydrologiczne. Rzędna stanu wody.;m n.p.m.
+B012B06000;Telemetria-dane hydrologiczne. Odległość od wodowskazu.;m
+B013B06000;Telemetria-dane hydrologiczne. Kod odległości od wodowskazu.;0
+B018B06000;Telemetria-dane hydrologiczne. Stan wody podczas pomiaru hydrometrycznego.;cm
+B020B06000;Telemetria-dane hydrologiczne. Chwilowe natężenie przepływu.;m3/s
+B020B060CG;Telemetria-dane hydrologiczne. Godzinowe natężenie przepływu.;m3/s
+B021B06000;Telemetria-dane hydrologiczne. Przepływ zredukowany.;m3/s
+B022B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu.;
+B023B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu letni.;
+B024B06000;Telemetria-dane hydrologiczne. Współczynnik redukcji przepływu zimowy.;
+B025B06000;Telemetria-dane hydrologiczne. Przepływ skorygowany.;m3/s
+B027B06000;Telemetria-dane hydrologiczne. Szerokość zwierciadła wody.;m
+B028B06000;Telemetria-dane hydrologiczne. Głębokość średnia.;m
+B029B06000;Telemetria-dane hydrologiczne. Głębokość maksymalna.;m
+B030B06000;Telemetria-dane hydrologiczne. Prędkość średnia.;m/s
+B031B06000;Telemetria-dane hydrologiczne. Prędkość maksymalna.;m/s
+B032B06000;Telemetria-dane hydrologiczne. Spadek zwierciadła wody.;promil
+B033B06000;Telemetria-dane hydrologiczne. Krzywa natężenia przepływu.;m3/s
+B035B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego.;0
+B036B06000;Telemetria-dane hydrologiczne. Kod procentowego udziału zjawisk lodowych.;%
+B037B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego na rzece.;0
+B038B06000;Telemetria-dane hydrologiczne. Kod zjawiska lodowego w profilu pomiarowym.;0
+B041B06000;Telemetria-dane hydrologiczne. Powierzchnia lodu.;%
+B042B06000;Telemetria-dane hydrologiczne. Kod zarastania przy pomiarach przepływu.;0
+B044B06000;Telemetria-dane hydrologiczne. Powierzchnia przekroju lodu.;m2
+B050A06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - dowolny automat.;C
+B050B06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - obserwator albo ekipa serwisowa.;C
+B050B060CD;Telemetria-dane hydrologiczne. Średnia dobowa temperatura wody. Źródło danych - obserwator albo ekipa serwisowa.;C
+B050C06000;Telemetria-dane hydrologiczne. Terminowa temperatura wody. Źródło danych - czujnik.;C
+B050C060CD;Telemetria-dane hydrologiczne. Średnia dobowa temperatura wody. Źródło danych - czujnik.;C
+B060B06000;Telemetria-dane hydrologiczne. Odpływ chwilowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+B060B060CD;Telemetria-dane hydrologiczne. Odpływ średni dobowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+B061B06000;Telemetria-dane hydrologiczne. Dopływ chwilowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+B061B060CD;Telemetria-dane hydrologiczne. Dopływ średni dobowy. Źródło danych - obserwator albo ekipa serwisowa.;m3/s
+B062B06000;Telemetria-dane hydrologiczne. Chwilowa rzędna górna zwierciadła wody.;m n.p.m
+B063B06000;Telemetria-dane hydrologiczne. Chwilowa rzędna dolna zwierciadła wody.;m n.p.m.
+B064B06000;Telemetria-dane hydrologiczne. Chwilowa objętość napełnienia zbiornika.;Milion metrów sześciennych
+B065B06000;Telemetria-dane hydrologiczne. Pojemność martwa zbiornika.;Milion metrów sześciennych
+B066B06000;Telemetria-dane hydrologiczne. Chwilowa pojemność całkowita zbiornika.;Milion metrów sześciennych
+B708C06000;Telemetria-dane hydrologiczne. Chwilowy stan wody w jeziorze. Źródło danych - czujnik.;cm
+B821B06000;Telemetria-dane hydrologiczne. Chwilowe natężenie przepływu przy pomiarze hydrometrycznym.;m3/s
+B990B06000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 1.;
+B990B16000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 2.;
+B990B26000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 3.;
+B990B36000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 4.;
+B990B46000;Telemetria-dane hydrologiczne. Uwaga do pomiarów hydrometrycznych nr 5.;
