@@ -1,7 +1,7 @@
 import datetime
 from urllib.request import urlretrieve, HTTPError
 from dateutil import rrule
-from weather_data.stations import get_station
+from imgw_measurements.stations import get_station
 import os
 
 
@@ -35,7 +35,7 @@ class Station:
             except HTTPError:
                 print("WARNING: Missing data for {} station in {}/{}".format(self.name, month, year))
                 missing_periods.append("{}/{}".format(year, month))
-        return "Missing periods for {} station: ".format(self.name) + ", ".join(missing_periods)
+        return missing_periods
 
     def fetch_weather_conditions(self, year, month):
         """

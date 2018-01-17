@@ -14,9 +14,6 @@ class Measurements:
         "Prędkość wiatru średnia za ostatnie 10 min.-synop": "Wind speed avg",
         "Suma opadu za ostatnią godzinę-synop": "Rainfall 1h",
         "Czas trwania usłonecznienia za ostatnią godzinę-synop": "Sunshine 1h",
-        "Ciśnienie atmosferyczne na poziomie stacji-synop-obserwator": "Air pressure 2",
-        "Temperatura powietrza-synop": "Temperature 2",
-        'Prędkość wiatru-synop-obserwator': "Wind speed 2",
         'Suma opadu śniegu za ostatnią godzinę-synop': "Snowfall",
         "Widzialność pozioma-synop": "Visibility"
     }
