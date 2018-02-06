@@ -12,9 +12,9 @@ class Measurements:
         "Wilgotność względna chwilowa-synop": "Humidity",
         "Kierunek wiatru średni za ostatnie 10 min.-synop": "Wind direction avg",
         "Prędkość wiatru średnia za ostatnie 10 min.-synop": "Wind speed avg",
-        "Suma opadu za ostatnią godzinę-synop": "Rainfall 1h",
+        "Suma opadu - deszcz-doba-synop": "Rainfall",
         "Czas trwania usłonecznienia za ostatnią godzinę-synop": "Sunshine 1h",
-        'Suma opadu śniegu za ostatnią godzinę-synop': "Snowfall",
+        "Suma opadu - śnieg-doba-synop": 'Snowfall 2',
         "Widzialność pozioma-synop": "Visibility"
     }
     MEASURES_CSV = "input_data/imgw/listaDanychSystem.csv"
